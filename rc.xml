@@ -7,9 +7,9 @@
   <focus>
     <focusNew>yes</focusNew>
     <followMouse>yes</followMouse>
-    <focusLast>no</focusLast>
+    <focusLast>yes</focusLast>
     <underMouse>no</underMouse>
-    <focusDelay>200</focusDelay>
+    <focusDelay>0</focusDelay>
     <raiseOnFocus>no</raiseOnFocus>
   </focus>
   <placement>
@@ -22,48 +22,60 @@
     <name>Clearlooks</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
-    <animateIconify>yes</animateIconify>
+    <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>8</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>8</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>9</size>
-      <weight>normal</weight>
-      <slant>normal</slant>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>9</size>
-      <weight>normal</weight>
-      <slant>normal</slant>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>9</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Monospace</name>
       <size>9</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
   </theme>
   <desktops>
-    <number>4</number>
+    <number>12</number>
     <firstdesk>1</firstdesk>
     <names>
+        <name>Alpha</name>
+        <name>Beta</name>
+        <name>Gamma</name>
+        <name>Delta</name>
+        <name>Epsilon</name>
+        <name>Zeta</name>
+        <name>Eta</name>
+        <name>Theta</name>
+        <name>Iota</name>
+        <name>Kappa</name>
+        <name>Lambda</name>
+        <name>Mu</name>
     </names>
     <popupTime>875</popupTime>
   </desktops>
@@ -77,20 +89,20 @@
     </popupFixedPosition>
   </resize>
   <margins>
-    <top>0</top>
+    <top>10</top>
     <bottom>0</bottom>
     <left>0</left>
     <right>0</right>
   </margins>
   <dock>
-    <position>Top</position>
+    <position>TopLeft</position>
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
     <noStrut>no</noStrut>
-    <stacking>Above</stacking>
+    <stacking>Top</stacking>
     <direction>Vertical</direction>
-    <autoHide>no</autoHide>
-    <hideDelay>300</hideDelay>
+    <autoHide>yes</autoHide>
+    <hideDelay>500</hideDelay>
     <showDelay>300</showDelay>
     <moveButton>Middle</moveButton>
   </dock>
