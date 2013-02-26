@@ -35,6 +35,9 @@
         <separator />
         <menu id="client-list-menu" />
         <separator />
+        <item label="Lock Screen">
+            <action name="Execute"><execute>/usr/bin/xscreensaver-command -lock</execute></action>
+        </item>
         <item label="ObConf">
             <action name="Execute"><execute>obconf</execute></action>
         </item>
